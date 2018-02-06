@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edititem"
+        android:orderInCategory="1"
+        android:title="@string/menuitem_edit_contact"
+        android:titleCondensed="@string/menuitem_edit_contact" />
+    <item
+        android:id="@+id/deleteitem"
+        android:orderInCategory="2"
+        android:title="@string/menuitem_dedite_contact"
+        android:titleCondensed="@string/menuitem_dedite_contact" />
+</menu>

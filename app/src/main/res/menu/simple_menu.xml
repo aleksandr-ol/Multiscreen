@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_bookmark"
+        android:orderInCategory="1"
+        android:title="Закладки" />
+
+    <group android:id="@+id/menu_group">
+        <item
+            android:id="@+id/menu_save"
+            android:orderInCategory="4"
+            android:title="Зберегти" />
+        <item
+            android:id="@+id/menu_share"
+            android:orderInCategory="4"
+            android:title="Відправити" />
+        <item
+            android:id="@+id/menu_delete"
+            android:orderInCategory="6"
+            android:title="Видалити" />
+    </group>
+
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="2"
+        android:title="Пошук" />
+    <item
+        android:id="@+id/menu_preferences"
+        android:orderInCategory="3"
+        android:title="Властивості" />
+    <item
+        android:id="@+id/item_back"
+        android:orderInCategory="100"
+        android:title="@string/back"
+        app:showAsAction="ifRoom" />
+</menu>

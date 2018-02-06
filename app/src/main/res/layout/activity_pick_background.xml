@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pickbglayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.immortal.multiscreen.PickBackground">
+
+    <Button
+        android:id="@+id/bgbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bg" />
+
+    <TextView
+        android:id="@+id/menu_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/chbextmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розширене меню" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:textSize="26sp"
+        android:text="@string/tvColorText"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:textSize="22sp"
+        android:text="@string/tvSizeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

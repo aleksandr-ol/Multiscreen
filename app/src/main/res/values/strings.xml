@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Multiscreen</string>
+
+    <string name="facebook_app_id">163517194237456</string>
+
+    <string name="Bill">Bill total:</string>
+    <string name="tip">Tip:</string>
+    <string name="tip10">10 %</string>
+    <string name="tip15">15 %</string>
+    <string name="tip18">18 %</string>
+    <string name="tip20">20 %</string>
+    <string name="total">Total:</string>
+    <string name="custom_percent">Custom:</string>
+
+    <string name="count">=</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="elevate">^</string>
+    <string name="square">√</string>
+    <string name="coma">,</string>
+    <string name="calculator">Calculator</string>
+
+    <string name="percent_line">0%</string>
+    <string name="menu_3">Percent_calculator</string>
+
+    <string name="back">назад</string>
+
+    <string name="pick_number">Вгадайте число від 1 до 100</string>
+    <string name="below">Недоліт</string>
+    <string name="after">Переліт</string>
+    <string name="success">Вгадали</string>
+    <string name="pick_btn">Спробувати</string>
+    <string name="pick_activity">Вгадати число</string>
+    <string name="play_more">Зіграти ще</string>
+    <string name="error">Неправильне введення</string>
+    <string name="guesses_count">Кількість спроб: 0</string>
+
+    <string name="bg">Вибрати тло</string>
+    <string name="message_bg">Бажаєте змінити тло?</string>
+
+    <string name="red">Червоний</string>
+    <string name="yellow">Жовтий</string>
+    <string name="green">Зелений</string>
+
+    <string name="progress_bar_text">Progress: 0%</string>
+    <string name="progress_bar_start">СТАРТ</string>
+    <string name="progres_bar_stop">СТОП</string>
+    <string name="rating_bar_textview_text">Значення:</string>
+    <string name="rating_up">Підняти</string>
+    <string name="rating_down">Опустити</string>
+    <string name="restart">Перезапустити</string>
+
+    <string name="searchurl">https://www.google.com.ua/search?q=</string>
+    <string name="tagprompt">Призначте тег запиту</string>
+    <string name="queryprompt">Введіть пошуковий запити</string>
+    <string name="taggedsearches">Теговані пошуки</string>
+    <string name="edit">Змінити</string>
+    <string name="cleartags">Очистити теги</string>
+    <string name="save">Зберегти</string>
+    <string name="erase">Видалити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="OK">OK</string>
+    <string name="missingtitle">Текст відсутній</string>
+    <string name="missingmessage">Введіть текст запиту та призначте йому тег</string>
+    <string name="confirmtitle">Ви впевнені?</string>
+    <string name="confirmmessage">Зараз будуть видалені всі збережені пошукові запити</string>
+    <string name="close">Close</string>
+
+    <string name="tvColorText">Колір тексту</string>
+    <string name="tvSizeText">Розмір тексту</string>
+
+    <string name="guess_flag">GuessFlag</string>
+    <string name="choices">Оберіть кількість варіантів</string>
+    <string name="correct">правильно</string>
+    <string name="guess_country">Вгадай країну</string>
+    <string name="guesses">спроби</string>
+    <string name="incorrect_answer">Неправильно!</string>
+    <string name="more_regions_title">Більше регіонів обрано</string>
+    <string name="more_regions_message">Недостатньо країн
+         в обраному регіоні. Оберіть більше регіонів.</string>
+    <string name="of">з</string>
+    <string name="ok">OK</string>
+    <string name="question">Питання</string>
+    <string name="quiz_title">10 запитань вікторини</string>
+    <string name="regions">Оберіть регіони</string>
+    <string name="reset_quiz">Перезапустити</string>
+    <string-array name="regionslist">
+        <item>first_folder</item>
+        <item>second_folder</item>
+        <item>third_folder</item>
+        <item>fours_folder</item>
+        <item>fifth_folder</item>
+    </string-array>
+    <string-array name="guesseslist">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+
+
+    <string name="menuitem_edit_contact">Змінити контакт</string>
+    <string name="menuitem_dedite_contact">Видалити контакт</string>
+    <string name="menuitem_add_contact">Додати контакт</string>
+    <string name="label_name">Name:</string>
+    <string name="label_phone">Phone:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="label_street">Street:</string>
+    <string name="label_city">City:</string>
+    <string name="confirmmessage_contact_delete">Зараз буде видалено даний контакт</string>
+    <string name="button_delete_contact">Видалити</string>
+    <string name="message">Не введено ім\'я</string>
+
+</resources>

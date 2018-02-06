@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.immortal.multiscreen.AddEditContact">
+
+    <EditText
+        android:id="@+id/nameedittext"
+        style="@style/Contacttextview"
+        android:hint="@string/label_name"
+        android:textColorHint="@color/green">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/phoneedittext"
+        style="@style/Contacttextview"
+        android:hint="@string/label_phone"
+        android:textColorHint="@color/green">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailedittext"
+        style="@style/Contacttextview"
+        android:hint="@string/label_email"
+        android:textColorHint="@color/green">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/streetedittext"
+        style="@style/Contacttextview"
+        android:hint="@string/label_street"
+        android:textColorHint="@color/green">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/cityedittext"
+        style="@style/Contacttextview"
+        android:hint="@string/label_city"
+        android:textColorHint="@color/green">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/saveContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зберегти" />
+
+</LinearLayout>

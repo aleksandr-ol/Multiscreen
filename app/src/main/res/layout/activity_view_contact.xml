@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.immortal.multiscreen.ViewContact"
+    android:stretchColumns="0,1">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/nameLabelTextView"
+            style="@style/Contactlabeltextview"
+            android:text="@string/label_name">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/Contacttextview">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/phoneLabelTextView"
+            style="@style/Contactlabeltextview"
+            android:text="@string/label_phone">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/phoneTextView"
+            style="@style/Contacttextview">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/emailLabelTextView"
+            style="@style/Contactlabeltextview"
+            android:text="@string/label_email">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/emailTextView"
+            style="@style/Contacttextview">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/streetLabelTextView"
+            style="@style/Contactlabeltextview"
+            android:text="@string/label_street">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/streetTextView"
+            style="@style/Contacttextview">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/cityLabelTextView"
+            style="@style/Contactlabeltextview"
+            android:text="@string/label_city">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/cityTextView"
+            style="@style/Contacttextview">
+
+        </TextView>
+    </TableRow>
+
+</TableLayout>
